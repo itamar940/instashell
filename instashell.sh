@@ -1,5 +1,6 @@
 #!/bin/bash
-# Coded by @thelinuxchoice (Instagram)
+# Coded by @danadvir1
+(Instagram)
 checkroot() {
 if [[ "$(id -u)" -ne 0 ]]; then
     printf "\e[1;77mPlease, run this program as root!\n\e[0m"
